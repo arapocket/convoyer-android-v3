@@ -21,6 +21,7 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <meta-data android:name="com.transistorsoft.locationmanager.license" android:value="bc7145b85279919a51f2775d9b88743a8be490192455efb1ddff668414b955a3" />
     </application>
 
 </manifest>
