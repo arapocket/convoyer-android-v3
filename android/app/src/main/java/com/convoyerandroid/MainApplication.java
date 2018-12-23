@@ -14,6 +14,8 @@ import com.transistorsoft.rnbackgroundfetch.RNBackgroundFetchPackage;
 import java.util.Arrays;
 import java.util.List;
 
+import com.airbnb.android.react.maps.MapsPackage;
+
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
@@ -27,7 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
           new RNBackgroundGeolocation(),
-          new RNBackgroundFetchPackage()       
+          new RNBackgroundFetchPackage(),
+          new MapsPackage()    
       );
     }
 
